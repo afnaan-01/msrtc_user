@@ -48,7 +48,7 @@ const IdentitySchema = new mongoose.Schema({
         required: [true, "address is required"]
     },
     studentDOB: {
-        type: Number,
+        type: Date,
         required: [true, "studentDOB is required"]
     },
     nameOfCollegeOrSchool: {
